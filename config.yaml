@@ -1,0 +1,15 @@
+General:
+  baseCurrency: LKR
+  currencies: # currencies to observe
+    - AUD
+    - USD
+    # add more above if needed
+
+Notification:
+  frequency: 2700 # in seconds
+  updateType:
+    all # all to notify at every request
+    # up to notify when rate is up
+    # down to notify when rate is down
+    # both to notify when rate is either up or down
+  difference: 5 # rate difference if updateType is set to up, down or both
