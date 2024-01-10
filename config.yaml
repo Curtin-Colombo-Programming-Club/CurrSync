@@ -6,7 +6,7 @@ General:
     # add more above if needed
 
 Notification:
-  frequency: 2700 # in seconds
+  updateTime: 1300 # in hour clock
   updateType:
     all # all to notify at every request
     # up to notify when rate is up
